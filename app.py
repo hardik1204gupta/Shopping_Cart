@@ -4,7 +4,7 @@ import pymysql
 from werkzeug import generate_password_hash, check_password_hash
  
 app = Flask(__name__)
-app.secret_key = "cairocoders-ednalan"
+app.secret_key = "secret_key"
  
 mysql = MySQL()
  
